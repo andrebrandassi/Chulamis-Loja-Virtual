@@ -9,6 +9,48 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+    /* estilos da loja virtual */ 
+.titulo h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+    color: #660000;
+    margin: 0;
+}
+
+ .p { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+    /*box de cada drone */
+.drone-loja {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.drone-a {
+    display: inline-block;
+    border: #1b8e99 solid 5px;
+   
+}
+
+.drone-b {
+    display: inline-block;
+    color: #660000;
+    border: #660000 solid 5px;
+
+}
+
+.drone-c {
+    display: inline-block;
+    border: #1b8e99 solid 5px;
+    margin: 0;
+}
+
+
+
 /* Estilos do HEADER/MENU */
 
 
