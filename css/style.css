@@ -98,26 +98,45 @@ nav {
 
 /* ESTILOS DA LOJA VIRTUAL */
 
-.titulo h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
+main {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.titulo{
+  display: flex;
+  justify-content: space-around;
+  margin: 24px 0 ;
+  max-width: 930px;
+}
+
+.titulo-com-underline h2 {
+  font-family: Tahoma, Helvetica, sans-serif;
+  font-size: 24px;
   font-weight: 600;
   color: #660000;
-  margin: 0;
+  margin-top: 30px;
+}
+
+.underline{
+  border-bottom: 3px solid #660000;
+  width: 800px;
+  margin-top: 10px;
+}
+
+.titulo img{
+  width: 125px;
+  height: 77px;
 }
 
 /*BOX DE CADA DRONE*/
-
-.drone-loja {
-  text-align: center;
-  margin: 0 auto;
-}
 
 .dji-inspire,
 .phantom,
 .ar-drone {
   display: inline-block;
   font-family: Tahoma;
+  text-align: center;
 }
 
 .drone-azul {
