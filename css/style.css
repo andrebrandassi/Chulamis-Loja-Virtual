@@ -11,42 +11,62 @@ body{
 
     /* estilos da loja virtual */ 
 .titulo h2 {
-    font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     font-weight: 600;
     color: #660000;
-    margin: 0;
+    margin: 0 auto;
 }
 
  .p { 
-    font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     text-align: center;
 }
 
     /*box de cada drone */
-.drone-loja {
+
+    main {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+
+.drone {
+    background-color: #fff;
+    border: 5px solid #3498db;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
     text-align: center;
-    margin: 0 auto;
 }
 
-.drone-a {
-    display: inline-block;
-    border: #1b8e99 solid 5px;
-   
+.drone img {
+    max-width: 100%;
+    border-radius: 8px 8px 0 0;
 }
 
-.drone-b {
-    display: inline-block;
-    color: #660000;
-    border: #660000 solid 5px;
-
-}
-
-.drone-c {
-    display: inline-block;
-    border: #1b8e99 solid 5px;
+.drone h3 {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 10px;
     margin: 0;
+}
+
+.drone-b h3 {
+    background-color: #e74c3c; 
+}
+
+.preco {
+    background-color: #3498db;
+    color: black;
+    padding: 20px;
+}
+
+.preco p {
+    margin: 0 auto;
 }
 
 
