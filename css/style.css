@@ -11,6 +11,8 @@ body {
 
 /* Estilos do HEADER/MENU */
 
+/* Navegação primaria */
+
 nav {
   max-width: 980px;
   margin: 0 auto;
@@ -35,6 +37,8 @@ nav {
   align-items: center;
   margin-right: 30px;
 }
+
+/* Navegação secundaria */
 
 .navegation {
   max-width: 980px;
@@ -102,12 +106,6 @@ nav {
   margin: 0;
 }
 
-.p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
-  text-align: center;
-}
-
 /*BOX DE CADA DRONE*/
 
 .drone-loja {
@@ -128,17 +126,36 @@ nav {
   border: #1b8e99 solid 2px;
 }
 
+.drone-vermelho {
+    border: #660000 solid 2px;
+    width: 300px;
+    height: 280px;
+  }
+
 .drone-azul p, .drone-azul h3{
     color: #1b8e99;
+}
+
+.drone-vermelho p, .drone-vermelho h3{
+    color: #660000;
 }
 
 .drone-azul p{
     font-size: 13px;
 }
 
+.drone-vermelho p{
+    font-size: 13px;
+}
+
 .drone-azul h3{
     background-color: #1b8e9933;
 }
+
+.drone-vermelho h3{
+    background-color: #6600002d;
+}
+
 
 .dji-inspire .preco, .ar-drone .preco{
     height: 96px;
@@ -147,24 +164,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 16px;
-}
-
-.drone-vermelho {
-  border: #660000 solid 2px;
-  width: 300px;
-  height: 280px;
-}
-
-.drone-vermelho p, .drone-vermelho h3{
-    color: #660000;
-}
-
-.drone-vermelho p{
-    font-size: 13px;
-}
-
-.drone-vermelho h3{
-    background-color: #6600002d;
 }
 
 .phantom .preco{
