@@ -7,6 +7,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  width: 980px;
+  margin: auto;
 }
 
 /* Estilos do HEADER/MENU */
@@ -210,14 +212,14 @@ main {
 }
 
 
-/* Estilo dos Serviçõs */ 
+/* ESTILO DOS SERVICOS */ 
 
 .servicos-curso, 
 .servicos-manutenção,
 .servicos-filamgens
  {
   display: inline-block;
-  font-family: Tahoma;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 38px;
 }
 
@@ -248,7 +250,6 @@ main {
 
 .servicos-curso h2 {
   color: #660000;
-  
 }
 
 .servicos p {
@@ -256,4 +257,8 @@ main {
   font-size: 17px;
   margin: 20px;
   color: #1b8e99;
+}
+
+.servicos-curso p {
+  color: #660000;
 }
