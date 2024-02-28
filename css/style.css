@@ -101,34 +101,41 @@ nav {
 /* ESTILOS DA LOJA VIRTUAL */
 
 main {
+  max-width: 980px;
   margin: 0 auto;
   text-align: center;
 }
 
-.titulo{
+.titulo-loja, .titulo-servico {
   display: flex;
   justify-content: space-around;
   margin: 24px auto;
+  width: 97%;
 }
 
-.titulo-com-underline{
-  
+.texto-titulo-loja, .texto-titulo-servico {
+  width: 100%;
 }
 
-.titulo-com-underline h2 {
-  font-family: Tahoma, Helvetica, sans-serif;
+.texto-titulo-loja h2, .texto-titulo-servico h2 {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 600;
-  color: #660000;
   margin-top: 30px;
   text-align: left;
 }
 
-.underline{
-  border-bottom: 3px solid #660000;
+.texto-titulo-loja{
+  color: #660000;
+  border-bottom: 2px solid #660000;
 }
 
-.titulo img{
+.texto-titulo-servico{
+  color: #1b8e99;
+  border-bottom: 2px solid #1b8e99;
+}
+
+.titulo-loja img , .titulo-servico img{
   width: 125px;
   height: 77px;
 }
@@ -143,6 +150,11 @@ main {
   text-align: center;
 }
 
+.phantom{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .drone-azul {
   width: 300px;
   height: 280px;
@@ -150,116 +162,128 @@ main {
 }
 
 .drone-vermelho {
-    border: #660000 solid 2px;
-    width: 300px;
-    height: 280px;
-  }
-
-.drone-azul p, .drone-azul h3{
-    color: #1b8e99;
-}
-
-.drone-vermelho p, .drone-vermelho h3{
-    color: #660000;
-}
-
-.drone-azul p{
-    font-size: 13px;
-}
-
-.drone-vermelho p{
-    font-size: 13px;
-}
-
-.drone-azul h3{
-    background-color: #1b8e9933;
-}
-
-.drone-vermelho h3{
-    background-color: #6600002d;
-}
-
-
-.dji-inspire .preco, .ar-drone .preco{
-    height: 96px;
-    background-color: #1b8e99;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 16px;
-}
-
-.phantom .preco{
-    height: 96px;
-    background-color: #660000;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 16px;
-}
-
-.preco p{
-    color: white;
-    font-size: 30px;
-}
-
-.preco p span{
-    font-size: 14px;
-}
-
-.preco img{
-    background-color: white;
-    border-radius: 4px;
-}
-
-
-/* ESTILO DOS SERVICOS */ 
-
-.servicos-curso, 
-.servicos-manutenção,
-.servicos-filamgens
- {
-  display: inline-block;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 38px;
-}
-
-.servicos-curso {
-  border: #660000 solid 2px;
-    width: 300px;
-    height: 376px;
-}
-
-.servicos-manutenção {
-  border: #1b8e99 solid 2px;
-    width: 300px;
-    height: 376px;
-}
-
-.servicos-filamgens {
-  border: #1b8e99 solid 2px;
   width: 300px;
-  height: 376px;
+  height: 280px;
+  border: #660000 solid 2px;
 }
 
-.servicos h2 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 17px;
+.drone-azul p,
+.drone-azul h3 {
   color: #1b8e99;
+}
+
+.drone-vermelho p,
+.drone-vermelho h3 {
+  color: #660000;
+}
+
+.drone-azul p,
+.drone-vermelho p {
+  font-size: 13px;
+  text-align: left;
+  padding: 16px;
+}
+
+.drone-azul h3 {
+  background-color: #1b8e9933;
+}
+
+.drone-vermelho h3 {
+  background-color: #6600002d;
+}
+
+.dji-inspire .preco,
+.phantom .preco,
+.ar-drone .preco {
+  height: 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.dji-inspire .preco,
+.ar-drone .preco{
+  background-color: #1b8e99;
+}
+
+.phantom .preco {
+  background-color: #660000;
+}
+
+.preco p {
+  color: white;
+  font-size: 30px;
+  text-align: left;
+}
+
+.preco img {
+  background-color: white;
+  border-radius: 4px;
+}
+
+.borda-final-loja{
+  width: 97%;
+  height: 16px;
+  margin: 16px auto;
+  background-color: #444;
+}
+
+/* ESTILO DOS SERVICOS */
+
+.servicos-curso,
+.servicos-manutenção,
+.servicos-filamgens {
+  display: inline-block;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  width: 300px;
+  height: 380px;
+}
+
+.servicos-curso img,
+.servicos-manutenção img,
+.servicos-filamgens img{
+  width: 100%;
+}
+
+.servicos-curso, .servicos-filamgens {
+  border: #660000 solid 2px;
+  border-bottom: 8px solid #660000;
+}
+
+.servicos-manutenção  {
+  border: #1b8e99 solid 2px;
+  border-bottom: 8px solid #1b8e99;
   margin-left: 20px;
+  margin-right: 20px;
 }
 
-.servicos-curso h2 {
+.servico-texto{
+  text-align: left;
+  padding: 8px 12px;
+}
+
+.servico-texto h2{
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.servicos-curso .servico-texto h2 ,
+.servicos-filamgens .servico-texto h2,
+.servicos-curso .servico-texto p,
+.servicos-filamgens .servico-texto p{
   color: #660000;
 }
 
-.servicos p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 17px;
-  margin: 20px;
+.servicos-manutenção .servico-texto h2,
+.servicos-manutenção .servico-texto p{
   color: #1b8e99;
 }
 
-.servicos-curso p {
-  color: #660000;
+.servico-texto p{
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  margin-top: 32px;
 }
+
