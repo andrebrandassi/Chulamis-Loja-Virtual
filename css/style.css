@@ -7,6 +7,8 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  width: 980px;
+  margin: auto;
 }
 
 /* Estilos do HEADER/MENU */
@@ -208,4 +210,56 @@ main {
 .preco img{
     background-color: white;
     border-radius: 4px;
+}
+
+
+/* ESTILO DOS SERVICOS */ 
+
+.servicos-curso, 
+.servicos-manutenção,
+.servicos-filamgens
+ {
+  display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 38px;
+}
+
+.servicos-curso {
+  border: #660000 solid 2px;
+    width: 300px;
+    height: 376px;
+}
+
+.servicos-manutenção {
+  border: #1b8e99 solid 2px;
+    width: 300px;
+    height: 376px;
+}
+
+.servicos-filamgens {
+  border: #1b8e99 solid 2px;
+  width: 300px;
+  height: 376px;
+}
+
+.servicos h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  color: #1b8e99;
+  margin-left: 20px;
+}
+
+.servicos-curso h2 {
+  color: #660000;
+}
+
+.servicos p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  margin: 20px;
+  color: #1b8e99;
+}
+
+.servicos-curso p {
+  color: #660000;
 }
