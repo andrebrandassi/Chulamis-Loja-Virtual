@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  width: 980px;
+  max-width: 980px;
   margin: auto;
 }
 
@@ -286,4 +286,58 @@ main {
   font-size: 13px;
   margin-top: 32px;
 }
+
+/* Footer */
+
+footer{
+  margin-top: 30px ;
+
+}
+
+.drone-footer{
+   display: flex;
+   flex-direction: row;
+   gap: 200px;
+}
+
+
+
+footer .txt-logo{
+  height: 96px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #1b8e99;
+  align-items: center;
+  padding: 20px;
+}
+
+footer .txt-logo .logo-footer{
+  width: 150px;
+  height: 30px;
+}
+
+.txt-logo p{
+  color: white;
+  font-family: Tahoma;
+}
+
+.professor img{
+  vertical-align: 48px;
+}
+
+footer .bortola{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #660000;
+  font-family: Tahoma;
+  color: white;
+  height: 26px;
+}
+
+.bortola p{
+  font-size: 14px;
+  padding: 5px;
+  margin-right: 100px;
+}
+
 
