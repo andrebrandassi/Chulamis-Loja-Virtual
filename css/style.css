@@ -16,7 +16,6 @@ body {
 /* Navegação primaria */
 
 nav {
-  max-width: 980px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -43,7 +42,6 @@ nav {
 /* Navegação secundaria */
 
 .navegation {
-  max-width: 980px;
   height: 45px;
   margin: 0 auto;
   background-color: #660000;
@@ -101,23 +99,25 @@ nav {
 /* ESTILOS DA LOJA VIRTUAL */
 
 main {
-  max-width: 980px;
   margin: 0 auto;
   text-align: center;
 }
 
-.titulo-loja, .titulo-servico {
+.titulo-loja,
+.titulo-servico {
   display: flex;
   justify-content: space-around;
   margin: 24px auto;
   width: 97%;
 }
 
-.texto-titulo-loja, .texto-titulo-servico {
+.texto-titulo-loja,
+.texto-titulo-servico {
   width: 100%;
 }
 
-.texto-titulo-loja h2, .texto-titulo-servico h2 {
+.texto-titulo-loja h2,
+.texto-titulo-servico h2 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 24px;
   font-weight: 600;
@@ -125,17 +125,18 @@ main {
   text-align: left;
 }
 
-.texto-titulo-loja{
+.texto-titulo-loja {
   color: #660000;
   border-bottom: 2px solid #660000;
 }
 
-.texto-titulo-servico{
+.texto-titulo-servico {
   color: #1b8e99;
   border-bottom: 2px solid #1b8e99;
 }
 
-.titulo-loja img , .titulo-servico img{
+.titulo-loja img,
+.titulo-servico img {
   width: 125px;
   height: 77px;
 }
@@ -150,20 +151,23 @@ main {
   text-align: center;
 }
 
-.phantom{
+.phantom {
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.drone-azul {
+
+
+.drone-azul, .drone-vermelho {
   width: 300px;
   height: 280px;
+}
+
+.drone-azul {
   border: #1b8e99 solid 2px;
 }
 
 .drone-vermelho {
-  width: 300px;
-  height: 280px;
   border: #660000 solid 2px;
 }
 
@@ -203,7 +207,7 @@ main {
 }
 
 .dji-inspire .preco,
-.ar-drone .preco{
+.ar-drone .preco {
   background-color: #1b8e99;
 }
 
@@ -222,7 +226,7 @@ main {
   border-radius: 4px;
 }
 
-.borda-final-loja{
+.borda-final-loja {
   width: 97%;
   height: 16px;
   margin: 16px auto;
@@ -243,45 +247,46 @@ main {
 
 .servicos-curso img,
 .servicos-manutenção img,
-.servicos-filamgens img{
+.servicos-filamgens img {
   width: 100%;
 }
 
-.servicos-curso, .servicos-filamgens {
+.servicos-curso,
+.servicos-filamgens {
   border: #660000 solid 2px;
   border-bottom: 8px solid #660000;
 }
 
-.servicos-manutenção  {
+.servicos-manutenção {
   border: #1b8e99 solid 2px;
   border-bottom: 8px solid #1b8e99;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.servico-texto{
+.servico-texto {
   text-align: left;
   padding: 8px 12px;
 }
 
-.servico-texto h2{
+.servico-texto h2 {
   font-size: 17px;
   text-transform: uppercase;
 }
 
-.servicos-curso .servico-texto h2 ,
+.servicos-curso .servico-texto h2,
 .servicos-filamgens .servico-texto h2,
 .servicos-curso .servico-texto p,
-.servicos-filamgens .servico-texto p{
+.servicos-filamgens .servico-texto p {
   color: #660000;
 }
 
 .servicos-manutenção .servico-texto h2,
-.servicos-manutenção .servico-texto p{
+.servicos-manutenção .servico-texto p {
   color: #1b8e99;
 }
 
-.servico-texto p{
+.servico-texto p {
   font-family: Tahoma, Geneva, Verdana, sans-serif;
   font-size: 13px;
   margin-top: 32px;
@@ -289,20 +294,17 @@ main {
 
 /* Footer */
 
-footer{
-  margin-top: 30px ;
-
+footer {
+  margin-top: 50px;
 }
 
-.drone-footer{
-   display: flex;
-   flex-direction: row;
-   gap: 200px;
+.drone-footer {
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
 }
 
-
-
-footer .txt-logo{
+footer .txt-logo {
   height: 96px;
   display: flex;
   justify-content: space-around;
@@ -311,21 +313,21 @@ footer .txt-logo{
   padding: 20px;
 }
 
-footer .txt-logo .logo-footer{
+footer .txt-logo .logo-footer {
   width: 150px;
   height: 30px;
 }
 
-.txt-logo p{
+.txt-logo p {
   color: white;
   font-family: Tahoma;
 }
 
-.professor img{
+.professor img {
   vertical-align: 48px;
 }
 
-footer .bortola{
+footer .bortola {
   display: flex;
   justify-content: flex-end;
   background-color: #660000;
@@ -334,10 +336,8 @@ footer .bortola{
   height: 26px;
 }
 
-.bortola p{
+.bortola p {
   font-size: 14px;
   padding: 5px;
   margin-right: 100px;
 }
-
-
